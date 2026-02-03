@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
   return (
     <div className="w-60 min-h-screen bg-white shadow p-4">
-      <h1 className="text-2xl font-bold text-green-600 mb-6">
+      <h1 className="text-2xl font-bold text-blue-600 mb-6">
         Money Manager
       </h1>
 

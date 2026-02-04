@@ -105,11 +105,11 @@ export default function Home() {
           <p className="text-gray-500">Balance</p>
           <h2 className="text-2xl font-bold text-blue-600">₹{balance}</h2>
         </div>
-        <div className="bg-white p-5 rounded-xl shadow">
+        <div className="bg-silver p-5 rounded-xl shadow">
           <p className="text-gray-500">Income</p>
           <h2 className="text-2xl font-bold text-green-600">₹{income}</h2>
         </div>
-        <div className="bg-white p-5 rounded-xl shadow">
+        <div className="bg-silver p-5 rounded-xl shadow">
           <p className="text-gray-500">Expense</p>
           <h2 className="text-2xl font-bold text-red-600">₹{expense}</h2>
         </div>

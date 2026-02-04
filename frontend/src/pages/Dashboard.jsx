@@ -38,7 +38,7 @@ export default function Dashboard() {
         </div>
 
         {/* LAST 5 TRANSACTIONS */}
-        <div className="bg-white rounded-xl shadow">
+        <div className="bg-gray-400 rounded-xl shadow">
           <h2 className="font-semibold p-4 border-b">
             Recent Transactions
           </h2>

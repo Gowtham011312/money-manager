@@ -101,7 +101,7 @@ export default function Home() {
       />
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
-        <div className="bg-white p-5 rounded-xl shadow">
+        <div className="bg-lightgray p-5 rounded-xl shadow">
           <p className="text-gray-500">Balance</p>
           <h2 className="text-2xl font-bold text-blue-600">₹{balance}</h2>
         </div>

@@ -102,15 +102,15 @@ export default function Home() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 my-6">
         <div className="bg-gray-200 p-5 rounded-xl shadow">
-          <p className="text-white">Balance</p>
+          <p className="text-dark">Balance</p>
           <h2 className="text-2xl font-bold text-blue-600">₹{balance}</h2>
         </div>
         <div className="bg-gray-200 p-5 rounded-xl shadow">
-          <p className="text-white">Income</p>
+          <p className="text-dark">Income</p>
           <h2 className="text-2xl font-bold text-green-600">₹{income}</h2>
         </div>
         <div className="bg-gray-200 p-5 rounded-xl shadow">
-          <p className="text-white">Expense</p>
+          <p className="text-dark">Expense</p>
           <h2 className="text-2xl font-bold text-red-600">₹{expense}</h2>
         </div>
       </div>

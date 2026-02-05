@@ -28,7 +28,7 @@ export default function AddAccountModal({ onClose, refresh }) {
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-40 flex justify-center items-center z-50">
+    <div className="fixed inset-0 bg-green bg-opacity-40 flex justify-center items-center z-50">
       <div className="bg-white p-6 rounded-xl w-96 space-y-4">
         <h2 className="font-bold text-lg">Add Account</h2>
 

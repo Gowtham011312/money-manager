@@ -8,18 +8,18 @@ export default function NavBar() {
       </h1>
 
       <nav className="flex flex-col gap-4">
-        <NavLink to="/" className="text-white hover:text-green-600">
+        <NavLink to="/" className="text-white hover:text-blue-600">
           Home
         </NavLink>
 
-        <NavLink to="/dashboard" className="text-white hover:text-green-600">
+        <NavLink to="/dashboard" className="text-white hover:text-blue-600">
           Dashboard
         </NavLink>
 
-        <NavLink to="/charts" className="text-white hover:text-green-600">
+        <NavLink to="/charts" className="text-white hover:text-blue-600">
           Charts
         </NavLink>
-        <NavLink to="/accounts" className="text-white hover:text-green-600">
+        <NavLink to="/accounts" className="text-white hover:text-blue-600">
           Accounts
         </NavLink>
       </nav>
